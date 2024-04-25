@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    background-color: #F5F5F7;
+    padding: 17px;
+}
+
+span {
+    color: #000008;
+    font-size: 12px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 17px auto;
+    display: block;
+
+}
+
+.footer article {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.submenu h2 {
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.submenu li {
+    margin: 0 0 10px;
+}
+
+.submenu li:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
